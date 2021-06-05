@@ -7,7 +7,7 @@ header{
 
 width: 100%;
 height: 100vh;
-background: url('../images/header.png'),url('../images/bg1.jpeg');
+background: url('header.png'),url('bg1.jpeg');
 background-size: 30% 60%,cover;
 background-position: right,center;
 background-repeat: no-repeat,no-repeat;
@@ -164,7 +164,7 @@ flex-basis: 50%;
 /*This is all of about css*/
 #skills{
 padding: 100px 50px;
-background: url("../images/bg2.jpg");
+background: url("bg2.jpg");
 background-size: cover;
 color:white;
 background-attachment: fixed;
@@ -332,7 +332,7 @@ height: 450px;
 @media only screen and (max-width:770px){
 
 	header{
-		background: url('../images/bg1.jpeg');
+		background: url('bg1.jpeg');
 		background-size: cover;
 
 	}
