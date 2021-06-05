@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="custom.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="typed.min.js"></script>
+
+</head>
+<body>
+<header>
+
+<nav>
+	
+	<div class="logo">
+		PORTFO<span>LIO</span>
+
+
+	</div>
+
+	<div class="menu">
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Services</a>
+		<a href="#">Skills</a>
+		<a href="#">Contact</a>
+
+
+	</div>
+
+
+
+
+
+
+</nav>
+
+	<div class="text">
+		<p>Hello I'm</p>
+		<h1>Mr.Aakash</h1>
+		<p>I'm a <span id="ani" style="color:orange">Computer Teacher</span></p>
+		<button class="cbtn">More</button>
+
+	</div>
+
+
+
+</header>
+
+<!-- /*this is upper section is a header nd navbar area* -->/
+
+
+	<section id="about"> 
+
+<div class="section-info">
+	<h1>About</h1>
+	<p>Who I'm</p>
+
+</div>
+		
+	<div class="about-row">
+		<div class="about-left-col">
+		<img src="abouta.jpg" alt="Aakash">
+	</div>
+
+			<div class="about-right-col">
+			<p id="uptext">Hello I'm a <span id="ani2" style="color:orange">Computer Teacher</span></p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<button class="cbtn">Downlod CV</button>
+			<button class="cbtn">View CV</button>
+
+
+		
+			</div>
+	</div>
+
+ 	</section>
+<!-- this is a skills section -->
+ 	<section id="skills">
+ 		
+ 		<div class="section-info">
+			<h1>Skills</h1>
+			<p>What is my skills</p>
+
+		</div>
+
+		<div class="skills-row">
+			<div class="skills-left-col">
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<button class="cbtn">More</button>
+
+			</div>
+
+
+
+
+			<div class="skills-right-col">
+				<div class="progress-bar">
+				<p><span>HTML</span><br>
+				<progress value="50" max="100">	</progress>
+				<span>50%</span>
+				</p>
+
+
+				<p><span>CSS</span><br>
+				<progress value="50" max="100">	</progress>
+				<span>50%</span>
+				</p>
+
+
+				<p><span>JavaScript</span><br>
+				<progress value="50" max="100">	</progress>
+				<span>50%</span>
+				</p>
+
+				<p><span>PythonL</span><br>
+				<progress value="50" max="100">	</progress>
+				<span>50%</span>
+				</p>
+				</div>
+			</div>
+
+		</div>
+
+ 	</section>
+
+
+ 	<!-- This is upper section is skills  -->
+
+ 	<section id="Services">
+ 		<div class="section-info">
+			<h1>Services</h1>
+			<p>We are Available</p>
+
+		</div>
+
+		<div class="services-row">
+			
+			<div class="service-box" data-tilt>
+			<img src="service.png">
+			<h1>Website Makeing</h1>
+			<p>This service is Available</p>
+			</div>
+
+			<div class="service-box" data-tilt>
+			<img src="service.png">
+			<h1>Web Apps </h1>
+			<p>This service is Available</p>
+			</div>
+
+
+			<div class="service-box" data-tilt>
+			<img src="service.png">
+			<h1>Web Development</h1>
+			<p>This service is Available</p>
+			</div>
+
+		</div>
+ 	</section>
+
+<!-- this section is contact us form  -->
+
+<section id="contact">
+	<div class="section-info">
+			<h1><font color=white>Get in Touch</h1></font>
+			<p style="color:black">We are Available</p>
+
+		</div>
+	
+		<div class="contact-row">
+			
+			<div class="contact-left-col">
+				<img src="contact.png">
+			</div>
+
+
+			<div class="contact-right-col">
+				<form>
+				<h1> Connect with us</h1>
+				<input type="text"  placeholder="Name">
+				<input type="Email"  placeholder="Email">
+<br>
+				<textarea cols="40" rows="10" placeholder="Message"></textarea>
+<br><a href="https://mailchi.mp/7f65892675cb/aakashportfolio">
+			<input type="button" name="Submit" value="submit" class="cbtn"></a>
+			</form>
+
+			</div>
+
+		</div>
+
+</section>
+
+<section id="footer">
+	<h2> Developed by Mr.Aakash</h2>
+	<img src="icon.png"width="100">
+
+
+</section>
+
+<script>
+	let animate= new Typed('#ani',{
+		strings:["Hacker","Full Stack web Developer","Accountant"],
+		typeSpeed:100,
+			backSpeed:100,
+			loop:true,
+		})
+</script>
+<script>
+	let animat= new Typed('#ani2',{
+		strings:["Hacker","Full Stack web Developer","Accountant"],
+		typeSpeed:100,
+			backSpeed:100,
+			loop:true,
+		})
+</script>
+
+<script src="tilt.jquery.min.js">
+	</script>
+
+
+	<script src="jquery.ripples-min.js"></script>
+
+<script>
+	jQurey(document).ready(function(){
+		$('header').ripples({
+  dropRadius:20,
+  perturbance: 0.03,
+  
+});
+		});
+	</script>
+</body>
+</html>
